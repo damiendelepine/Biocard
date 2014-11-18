@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+    
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/wall" />
+
+    <VideoView
+        android:id="@+id/menuVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLeft"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <ImageButton
+                android:id="@+id/buttonRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/bouton_enregistrer" />
+        </RelativeLayout>
+
+        <Space
+            android:id="@+id/spaceOfMiddle"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/relativeLeft" />
+
+        <RelativeLayout
+            android:id="@+id/relativeRight"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/spaceOfMiddle" >
+
+            <ImageButton
+                android:id="@+id/buttonAuthentify"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/bouton_identifier" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:paddingLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:background="@android:color/transparent">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu"/>
+        
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" 
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/biocardbybactech"/>
+
+</RelativeLayout>
