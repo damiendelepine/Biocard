@@ -10,3 +10,9 @@ We worked with a third student on this part of the project : Thomas Bobet from t
 The result is very good : the application is ‘design’ and pretty easy to use for people. There are an introduction clip, animated menus and several animations linked with the user actions. The technology is well highlighted and people may easily understand that it can be used in their daily life.
 
 Now we are using an external fingerprint reader, but eventually it will be included in smartphones and tablets hardware. Apple iPhone 5S and Samsung Galaxy S5 are now the first smartphones on the market to propose this feature.
+
+![Biocard1 Screenshot](images/biocard1.png)
+
+![Biocard2 Screenshot](images/biocard2.png)
+
+![Biocard3 Screenshot](images/biocard3.png)
